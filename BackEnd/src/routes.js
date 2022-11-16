@@ -38,7 +38,6 @@ routes.post('/auth/register', async(req, res) => {
     } catch (error) {
         res.status(500).json({msg: error});
     }
-
 });
 
 module.exports = routes;
